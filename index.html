@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset=UTF-8>
+    <meta http-equiv=X-UA-Compatible content=IE=edge>
+    <meta name=viewport content=width=device-width, initial-scale=1.0>
+    <title>Shashin</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+        <div class="navLeft">
+            <img src="image/logo_shashin.png" class="logo">
+        </div>
+        <div class="navRight">    
+            <button class="navButton">Populaire</button>
+            <button class="navButton">Créer</button>
+            <button class="navButton">Collection</button>
+            <div class="bg-login">
+                <img src="image/user-profile-filled-svgrepo-com 1.svg" class="login">
+            </div>
+        <div>
+
+    </nav>
+    <section class="editor">
+        <div class="butLeft">
+            <input type="file" id="file-input" style="display: none;"/>
+            <label for="file-input" class="buttonLeft">selectionner le fichier</label>
+            <button onclick="download()" class="buttonLeft">Download</button>
+        </div>
+        <div class="canvasContainer">
+            <canvas id="canvas"></canvas>
+        </div>
+        <div class="butRight">
+            <button onclick="grayscale()" class="buttonRight">Grayscale</button>
+            <button onclick="sepia()" class="buttonRight">Sepia</button>
+            <button onclick="invert()" class="buttonRight">Invert</button>
+        </div>
+    </section>
+    
+</body>
+</html>
