@@ -110,6 +110,7 @@ nav{
     background: #a5c9ff;
     margin: 30px;
     border-radius: 25px;
+    padding: 20px;
     box-shadow: inset 0px 0px 4px rgba(255, 255, 255, 0),
     inset 7px 7px 15px rgba(55, 84, 170, .3),
     inset -7px -7px 20px rgba(255, 255, 255, .3);
@@ -122,6 +123,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 7px 7px 15px rgba(55, 84, 170, .4);
 }
 
 .butRight{
