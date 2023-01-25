@@ -16,6 +16,9 @@ var canvas = document.getElementById("canvas");
 var ctx = canvas.getContext("2d");
 var img = new Image();
 
+canvas.width = "0px"
+canvas.height = "0px"
+
 document.getElementById("file-input").onchange = function(e) {
   img.src = URL.createObjectURL(e.target.files[0]);
   img.onload = function() {
